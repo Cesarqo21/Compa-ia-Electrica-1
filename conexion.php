@@ -1,0 +1,6 @@
+<?php
+$conexion = new mysqli("localhost", "root", "", "sistema_electrica", 3307);
+if ($conexion->connect_error) {
+    die("Error de conexión: " . $conexion->connect_error);
+}
+?>
